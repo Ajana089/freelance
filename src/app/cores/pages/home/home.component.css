@@ -1,0 +1,32 @@
+.banner {
+    position: relative;
+  }
+  
+  .banner img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .overlay h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+  }
+  
+  .card {
+    border: none;
+  }
+  
